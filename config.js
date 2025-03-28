@@ -7,13 +7,13 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || '',
+module.exports = { session: process.env.SESSION_ID || 'BWM-XMD;;;H4sIAAAAAAAAA5VUyXKjSBT8l7pKbrEvinDEsEoYrWhBeKIPBRRSSewUSODQv09g2dE+TPd4bhW15MvKzPfeQJrhCtmoBeM3kJe4gQT1S9LmCIyBWkcRKsEQhJBAMAa1suUNZg5P/iy44P1ctTkqXPue1TaQms51NjwIuTfi6n31DO5DkNd+jIM/AMZKvXQX7sTfFkeizEt32TrzcudOiuVG0/S2xYrOWbLWnq/P4N4jQlzi9GjkJ5SgEsY2alcQl9+jX0wFfhrG9qQjgmaG19bzZmZdFxuBFyV3tGwtlbXyG7Ngdt+j76hVMX/pMs+dcItDy8JBfQzOo1PTWLuXQCmw63fRofFTVXnQr/AxRaEVopRg0n5b94nZObPbrEyCIq00ZbaTW1l1mTjhY6QZnbxqnQUKeGfnzr9HPBtkLcZIkLiF6XILc7de+bedOp/SZr5TQmtrjzpp8GIG6fUr8VX5mZXL/9F9Z57JfhbRtRxPk5OvFqYSO8HhuGz3VqjJB3Pi5lFOLN+1vkefUVezlbzlo/h8PkvC4Kzbg1GyMabhy9rZ0+U0arbF/LyfXr1f9CGpyz+xTCJ2OjqsuSk++yfamWJd4Da0oscdG6t1t8ukm5f7RBJJV8kzIV1d6IoVpgXvN1pk10IUNdmAejVwCwVDHpV0orT6+vn9RxfUWiEY0/chKNERV6SEBGdpvyezQwDDZoOCEpF3dQH9qp8HrX219i2+5h3ZLprtkagNnNEWJR/MwJ5VJtt6lmM8gyHIyyxAVYXCKa5IVrZzVFXwiCow/vvnEKToRh6+9dVYeggiXFZkl9Z5nMHw09TPQxgEWZ2STZsGWr9AJRhTv7YRITg9Vr2MdQrL4IQbpJ0gqcA4gnGF7kMQogYHqMcDWbhJasaHG3cTr9ehlRypvXTtKZ+y9HEl4ASOo5D8xEDGf+JoxD5JAQ2fKJFnRFqmKYrnwRDgj5bp3/zWwVQ8r+JOLNiiW07sw1Zkd6P00mnG+fLuwkN6VKIQjElZoyHwYXCp8212QekfcKVqiYnrQVcY7NxiZr1kkXNrm/M58r7gPiwF47dfY0rLwh5Pl1VdYGkFDEHynkDc/5xhOYmmRYYSGJoai9Jf1Y9rryTM8x8pIj3wh+r9kxARiOMKjIFmFewxydbEZoLm6nnKRlFsRemT8OnSZ9ofcfK8pX/Rc31uC3nbmA3myOiwaLATVvuJkjc2Fvj6RAuvxr+C9K3BaKSZ41uka6Jx5qoJtV45AzTjNCi9GKeKkH1BW8tWDBMROiMfxUtRTU6+hPl1EF3snJmzlYLWClUfRXFKU6ldqspzX+2Rlq/FcL7gFhNm+4p4TeUHRqDq8Da5vUYLrikQxMHqsJHjriwpZcQbr+luoEv74yWfl8ZttjSZ8lXO1RdMvEipF6qR6pPQUa+PPnyfA/HH/MXvLfL2ka0Io/dxlsLeo/9052vOqfvwC8jHhPxNllR3oie8Iqw7rS6C8uZz9SyiO5+7HHzTOdp+m9W1n4UocRRwv/8cgjyGJMrKBIwBTMMywyEYghhWRPnVqlucoIrAJAdjWuRYWhYlSb7/A9l37mLfBwAA',
     PREFIXE: process.env.PREFIX || ".",
-    OWNER_NAME: process.env.OWNER_NAME || "Ibrahim Adams",
-    NUMERO_OWNER : process.env.NUMERO_OWNER || " Ibrahim Adams",              
+    OWNER_NAME: process.env.OWNER_NAME || "METRO",
+    NUMERO_OWNER : process.env.NUMERO_OWNER || " METRO",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
-    AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
-    BOT : process.env.BOT_NAME || 'BMW_MD',
+    AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'yes',
+    BOT : process.env.BOT_NAME || 'METRO_MD',
     URL : process.env.BOT_MENU_LINKS || 'https://files.catbox.moe/h2ydge.jpg',
     MODE: process.env.PUBLIC_MODE || "yes",
     PM_PERMIT: process.env.PM_PERMIT || 'yes',
